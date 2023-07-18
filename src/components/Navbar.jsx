@@ -24,9 +24,15 @@ const Navbar = () => {
           </div>
           <div className="links-cont" style={linksStyle}>
             <div className="nav-links" ref={linksRef}>
-              <Link to="/">home</Link>
-              <Link to="/about">about</Link>
-              <Link to="/newsletter">newsletter</Link>
+              <Link to="/" onClick={handleToggle}>
+                home
+              </Link>
+              <Link to="/about" onClick={handleToggle}>
+                about
+              </Link>
+              <Link to="/newsletter" onClick={handleToggle}>
+                newsletter
+              </Link>
             </div>
           </div>
         </div>
