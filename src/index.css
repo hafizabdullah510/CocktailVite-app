@@ -188,7 +188,7 @@ ul {
   max-width: var(--max-width);
   margin: 0 auto;
   width: var(--view-width);
-  padding: 5rem 2rem;
+  padding: 5rem 0;
 }
 
 /* buttons */
